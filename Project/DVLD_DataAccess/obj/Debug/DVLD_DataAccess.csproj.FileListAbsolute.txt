@@ -4,3 +4,9 @@ D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD_DataAccess\obj\D
 D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.CoreCompileInputs.cache
 D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.dll
 D:\Albara\My Projects\Wnidows Form C#\DVLD-Windows-Form-C-\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.pdb
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\bin\Debug\DVLD_DataAccess.dll
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\bin\Debug\DVLD_DataAccess.pdb
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.AssemblyReference.cache
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.csproj.CoreCompileInputs.cache
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.dll
+D:\Albara\My Projects\Wnidows Form C#\Full Stack\DVLD\Project\DVLD_DataAccess\obj\Debug\DVLD_DataAccess.pdb

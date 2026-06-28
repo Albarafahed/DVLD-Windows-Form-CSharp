@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\",
+  "WorkspaceRootPath": "D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\full stack\\dvld\\project\\dvld\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|d:\\albara\\my projects\\wnidows form c#\\dvld-windows-form-c-\\dvld\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:login\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\applications\\rlease detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\applications\\rlease detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D7EE035-E38A-4037-8232-86D0CAFF29C3}|DVLD.csproj|solutionrelative:applications\\rlease detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,21 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmLoginScreen.cs",
-              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\Login\\frmLoginScreen.cs",
               "RelativeDocumentMoniker": "Login\\frmLoginScreen.cs",
-              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\Login\\frmLoginScreen.cs",
               "RelativeToolTip": "Login\\frmLoginScreen.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwBkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA+wBkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T15:20:12.233Z",
               "EditorCaption": ""
@@ -45,25 +57,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "frmLoginScreen.cs [Design]",
-              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\Login\\frmLoginScreen.cs",
               "RelativeDocumentMoniker": "Login\\frmLoginScreen.cs",
               "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs [Design]",
-              "RelativeToolTip": "Login\\frmLoginScreen.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\DVLD-Windows-Form-C-\\DVLD\\Login\\frmLoginScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T15:20:09.395Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-13T15:20:09.395Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "frmListDetainedLicenses.cs [Design]",
-              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs",
+              "DocumentMoniker": "D:\\Albara\\My Projects\\Wnidows Form C#\\Full Stack\\DVLD\\Project\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs",
               "RelativeDocumentMoniker": "Applications\\Rlease Detained License\\frmListDetainedLicenses.cs",
               "ToolTip": "D:\\Albara\\My Projects\\Wnidows Form C#\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs [Design]",
-              "RelativeToolTip": "Applications\\Rlease Detained License\\frmListDetainedLicenses.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\DVLD-Windows-Form-C-\\DVLD\\Applications\\Rlease Detained License\\frmListDetainedLicenses.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T20:42:39.988Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-05-12T20:42:39.988Z"
             }
           ]
         }
