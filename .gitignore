@@ -1,16 +1,15 @@
-## Ignore Visual Studio Temporary Files
-.vs/
-*.suo
+## Visual Studio / .NET
+bin/
+obj/
 *.user
-*.userosscache
-*.sln.docstates
+*.suo
+.vs/
+*.pdb
 
-## Ignore Build Outputs
-[Bb]in/
-[Oo]bj/
+## Database backups (لا ترفع أبداً)
+*.bak
+*.mdf
+*.ldf
 
-## Ignore OS generated files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
+## Misc
+*.log
