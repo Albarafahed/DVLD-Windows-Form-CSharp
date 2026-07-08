@@ -3,7 +3,8 @@ bin/
 obj/
 *.user
 *.suo
-.vs/
+.Project/DVLD/.vs/
+.VS/
 *.pdb
 
 ## Database backups (لا ترفع أبداً)
