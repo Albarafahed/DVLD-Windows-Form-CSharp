@@ -3,7 +3,7 @@ bin/
 obj/
 *.user
 *.suo
-.Project/DVLD/.vs/
+**/.vs/
 .VS/
 *.pdb
 
