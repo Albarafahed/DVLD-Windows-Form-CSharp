@@ -1,253 +1,765 @@
-# 🚗 DVLD - Drivers, License & Vehicle Department System
+# 🚗 Drivers, Vehicles & Licenses Department (DVLD)
 
 ![C#](https://img.shields.io/badge/Language-C%23-blue)
-![.NET Framework](https://img.shields.io/badge/Framework-.NET%20Framework-purple)
+![.NET Framework](https://img.shields.io/badge/Framework-.NET%20Framework%204.7.2-purple)
+![WinForms](https://img.shields.io/badge/UI-Windows%20Forms-green)
 ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red)
-![Architecture](https://img.shields.io/badge/Architecture-3--Tier-green)
+![Architecture](https://img.shields.io/badge/Architecture-3--Tier-orange)
+![ADO.NET](https://img.shields.io/badge/Data%20Access-ADO.NET-yellow)
 ![Git](https://img.shields.io/badge/Version%20Control-Git-orange)
 
-A professional desktop application for managing **drivers, driving licenses, vehicles, tests, and department operations**.
+A professional **Drivers, Vehicles & Licenses Department (DVLD)** desktop management system built using **C# Windows Forms**, **.NET Framework 4.7.2**, **SQL Server**, and a **3-Tier Architecture**.
 
-The project was developed using **C# WinForms**, **SQL Server**, and a **3-Tier Architecture**, applying software engineering principles such as **SOLID**, **Clean Code**, and **Separation of Concerns**.
+The system automates the complete driving license workflow including people management, users, drivers, local and international licenses, testing process, detained licenses, application management, and license services.
+
+---
+
+# 📸 Application Preview
+
+## 🔐 Login Screen
+
+<p align="center">
+<img src="Images/frmlogin.png" width="900">
+</p>
+
+---
+
+## 🏠 Main Screen
+
+<p align="center">
+<img src="Images/frmMain.png" width="900">
+</p>
 
 ---
 
 # 📑 Table of Contents
 
-* [System Demo](#-system-demo)
-* [Features](#-features)
-* [Technology Stack](#-technology-stack)
-* [Architecture](#-architecture)
-* [Database](#-database)
-* [Installation](#-installation)
-* [Project Structure](#-project-structure)
-* [Engineering Practices](#-engineering-practices)
-* [Future Improvements](#-future-improvements)
-* [Contact](#-contact)
-
----
-
-# 📺 System Demo
-
-A complete UI walkthrough and system demonstration:
-
-🔗 LinkedIn Demo:
-https://www.linkedin.com/posts/albara-csharp-developer_dvld-drivers-license-and-vehicle-department-ugcPost-7458877382670704640-vkzf
+- Features
+- Screenshots
+- Technology Stack
+- Architecture
+- Database
+- Installation
+- Configuration
+- Project Structure
+- Security Notes
+- Known Limitations
+- Future Improvements
+- Contact
 
 ---
 
 # 🚀 Features
 
-## 🚘 License Management
+## 🔐 Authentication
 
-* Issue local driving licenses.
-* Renew expired licenses.
-* Replace lost or damaged licenses.
-* Issue international licenses.
-* Detain and release licenses.
+- Secure user login.
+- Username & Password authentication.
+- Remember Me feature.
+- User permission validation.
 
-## 📝 Testing System
+---
 
-* Vision test management.
-* Written test management.
-* Practical driving test management.
-* Retake test handling.
+## 👥 People Management
 
-## 👤 People Management
+Manage all people records.
 
-* Manage drivers and personal information.
-* Store profile images.
-* Validate personal data.
+Features
 
-## 👥 User Management
+- Add Person
+- Update Person
+- Delete Person
+- Search Person
+- View Person Details
 
-* Authentication system.
-* Role-based permissions.
-* User activation and management.
+---
 
-## 📋 Application Workflow
+## 👤 User Management
 
-* Track application lifecycle.
-* Manage application types.
-* Maintain operation history.
+Manage application users.
+
+Features
+
+- Create Users
+- Edit Users
+- Activate / Deactivate Users
+- View User Details
+
+---
+
+## 🚘 Driver Management
+
+Features
+
+- Register Drivers
+- View Driver Information
+- Link Driver With Licenses
+
+---
+
+## 📄 License Applications
+
+Supports complete driving license workflow.
+
+Features
+
+- New Local Driving License Application
+- International License Application
+- Renew License
+- Replacement For Damaged License
+- Replacement For Lost License
+- Release Detained License
+
+---
+
+## 🧪 Driving Tests
+
+Manage testing process.
+
+Features
+
+- Vision Test
+- Written Test
+- Street Test
+- Test Appointments
+- Test Scheduling
+
+---
+
+## 🚔 Detained Licenses
+
+Features
+
+- Detain License
+- Release License
+- View Detained Licenses
+- Search Detained Licenses
+
+---
+
+## 🌍 International Licenses
+
+Features
+
+- Issue International License
+- Display International License
+- Manage International Licenses
+
+---
+
+## ⚙️ Administration
+
+Features
+
+- Manage Application Types
+- Manage Test Types
+
+---
+
+# 🖼 Screenshots
+
+# 🔐 Login
+
+<p align="center">
+<img src="Images/frmlogin.png" width="850">
+</p>
+
+---
+
+# 🏠 Main Window
+
+<p align="center">
+<img src="Images/frmMain.png" width="850">
+</p>
+
+---
+
+# 👥 People Management
+
+| People List | Add / Update Person |
+|--------------|--------------------|
+| ![](Images/Pepole/frmListPeople.png) | ![](Images/Pepole/frmAddUpdatePerson.png) |
+
+| Person Details |
+|----------------|
+| ![](Images/Pepole/frmPersonDetalis.png) |
+
+---
+
+# 👤 User Management
+
+| Users List | User Details |
+|------------|--------------|
+| ![](Images/User/frmlistUser.png) | ![](Images/User/frmUserDetalis.png) |
+
+| Add / Update User | Change Password |
+|-------------------|-----------------|
+| ![](Images/User/frmAddUpdateUser.png) | ![](Images/User/frmChingeUser.png) |
+
+---
+
+# 🚘 Drivers
+
+<p align="center">
+<img src="Images/Driver/frmListDriver.png" width="850">
+</p>
+
+---
+
+# 📄 Local Driving License
+
+| Applications | Add Application |
+|---------------|----------------|
+| ![](Images/Applications/Driving Licenses Services/Local Driver/frmListLocalDrivingLicense.png) | ![](Images/Applications/Driving Licenses Services/Local Driver/frmAddUpdateLocalDrivingLicense.png) |
+
+| License Details |
+|-----------------|
+| ![](Images/Applications/Driving Licenses Services/Local Driver/frmShowLocalDrivingLicense.png) |
+
+---
+
+# 🌍 International License
+
+| Applications | Add License |
+|---------------|-------------|
+| ![](Images/Applications/Driving Licenses Services/International License/frmListInternationalLicense .png) | ![](Images/Applications/Driving Licenses Services/International License/frmAddUpdateInternational License .png) |
+
+| License Details |
+|-----------------|
+| ![](Images/Applications/Driving Licenses Services/International License/frmShowInternationalLicense .png) |
+
+---
+# 🚔 Detained Licenses
+
+| Detain License | Detained Licenses |
+|----------------|-------------------|
+| ![](Images/Applications/Detain Licenses/frmDetainLicenses.png) | ![](Images/Applications/Detain Licenses/frmListDetainLicenses.png) |
+
+| Release Detained License |
+|--------------------------|
+| ![](Images/Applications/Detain Licenses/frmReleaseDetainedLicense.png) |
+
+---
+
+# 🪪 Driving License Services
+
+| License History | Renew License |
+|-----------------|---------------|
+| ![](Images/Applications/Driving Licenses Services/frmLicenseHistory.png) | ![](Images/Applications/Driving Licenses Services/frmRenwApplicationLicense.png) |
+
+| Replace Damaged License | Release Detained License |
+|--------------------------|--------------------------|
+| ![](Images/Applications/Driving Licenses Services/frmReplacementForDamagedLicense.png) | ![](Images/Applications/Driving Licenses Services/frmReleaseDetainedLicense.png) |
+
+---
+
+# ⚙️ Application Types
+
+| Application Types |
+|-------------------|
+| ![](Images/Applications/Manage Application Types/frmListManageApplicationTypes.png) |
+
+| Edit Application Type |
+|-----------------------|
+| ![](Images/Applications/Manage Application Types/frmEditManageApplicationTypes.png) |
+
+---
+
+# 🧪 Test Types
+
+| Test Types |
+|------------|
+| ![](Images/Applications/Manage Test Types/frmListManageTestTypes.png) |
+
+| Edit Test Type |
+|----------------|
+| ![](Images/Applications/Manage Test Types/frmEditManageTestTypes.png) |
 
 ---
 
 # 🛠 Technology Stack
 
-| Category          | Technology           |
-| ----------------- | -------------------- |
-| Language          | C#                   |
-| Framework         | .NET Framework       |
-| UI                | Windows Forms        |
-| Database          | Microsoft SQL Server |
-| Data Access       | ADO.NET              |
-| Architecture      | 3-Tier Architecture  |
-| Design Principles | SOLID                |
-| Version Control   | Git & GitHub         |
+| Category | Technology |
+|----------|------------|
+| Language | C# |
+| Framework | .NET Framework 4.7.2 |
+| UI | Windows Forms |
+| Database | Microsoft SQL Server |
+| Data Access | ADO.NET |
+| SQL Provider | System.Data.SqlClient |
+| Architecture | 3-Tier Architecture |
+| IDE | Visual Studio |
+| Version Control | Git & GitHub |
 
 ---
 
 # 🏛 Architecture
 
-The application follows a **3-Tier Architecture**:
+The project follows a classic **3-Tier Architecture** that separates the user interface, business logic, and data access layers.
 
+```text
+                 +----------------------+
+                 |      WinForms UI     |
+                 |        (DVLD)        |
+                 +----------+-----------+
+                            |
+                            |
+                            ▼
+                 +----------------------+
+                 |   Business Layer     |
+                 |   DVLD_Buisness      |
+                 +----------+-----------+
+                            |
+                            |
+                            ▼
+                 +----------------------+
+                 |   Data Access Layer  |
+                 | DVLD_DataAccess      |
+                 +----------+-----------+
+                            |
+                            |
+                            ▼
+                 +----------------------+
+                 |     SQL Server       |
+                 |      DVLD DB         |
+                 +----------------------+
 ```
-Presentation Layer (UI)
-          |
-          ↓
-Business Logic Layer (BLL)
-          |
-          ↓
-Data Access Layer (DAL)
-          |
-          ↓
-SQL Server Database
+
+This layered design improves maintainability by separating responsibilities across independent projects.
+
+---
+
+## 🖥 Presentation Layer
+
+Project
+
+```text
+DVLD
 ```
 
-## Presentation Layer
+Responsibilities
 
-Responsible for:
+- Windows Forms user interface.
+- Navigation between system modules.
+- User interaction.
+- Input validation.
+- Displaying application data.
+- Printing and reporting screens.
 
-* User interface.
-* User interaction.
-* Form navigation.
-* Displaying information.
+Main Modules
 
-## Business Logic Layer
+```text
+Login
+Main Screen
+People
+Users
+Drivers
+Applications
+Licenses
+Tests
+Application Types
+Test Types
+```
 
-Responsible for:
+---
 
-* Business rules.
-* Validation.
-* Application workflows.
-* Processing operations.
+## ⚙️ Business Layer
 
-## Data Access Layer
+Project
 
-Responsible for:
+```text
+DVLD_Buisness
+```
 
-* Database communication.
-* CRUD operations.
-* Stored procedures execution.
-* Data retrieval.
+Responsibilities
+
+- Business Rules.
+- Validation.
+- Domain Objects.
+- License Workflow.
+- Driver Management.
+- Test Processing.
+
+Main Classes
+
+```text
+clsPerson
+clsUsers
+clsApplication
+clsDriver
+clsLicense
+clsTest
+clsInternationalLicense
+clsDetainedLicense
+```
+
+---
+
+## 🗄 Data Access Layer
+
+Project
+
+```text
+DVLD_DataAccess
+```
+
+Responsibilities
+
+- SQL Server communication.
+- CRUD Operations.
+- Execute SQL Queries.
+- Stored data retrieval.
+- Connection management.
+
+Main Classes
+
+```text
+clsPersonData
+clsUsersData
+clsApplicationData
+clsDriverData
+clsLicenseData
+clsTestData
+clsInternationalLicenseData
+clsDetainedLicenseData
+clsDataAccessSettings
+```
 
 ---
 
 # 🗄 Database
 
-The project includes a complete SQL Server database script.
+The application uses
 
-Location:
-
-```
-Database/DVLD.sql
+```text
+Microsoft SQL Server
 ```
 
-The script contains:
+Database Name
 
-* Database creation.
-* Tables.
-* Relationships.
-* Constraints.
-* Views.
-* Stored Procedures.
-* Initial data.
+```text
+DVLD
+```
 
+Main Tables
+
+```text
+People
+Users
+Drivers
+Applications
+ApplicationTypes
+LicenseClasses
+Licenses
+InternationalLicenses
+LocalDrivingLicenseApplications
+DetainedLicenses
+TestAppointments
+Tests
+TestTypes
+Countries
+```
+
+The repository does not include
+
+- Database creation scripts.
+- Migration files.
+- Seed data.
+
+---
+
+# 📂 Project Structure
+
+```text
+DVLD
+│
+├── DVLD
+│   ├── Login
+│   ├── People
+│   ├── Users
+│   ├── Drivers
+│   ├── Applications
+│   ├── Licenses
+│   ├── Tests
+│   ├── Resources
+│   └── Program.cs
+│
+├── DVLD_Buisness
+│   ├── clsPerson
+│   ├── clsUsers
+│   ├── clsApplication
+│   ├── clsDriver
+│   ├── clsLicense
+│   ├── clsTest
+│   └── ...
+│
+├── DVLD_DataAccess
+│   ├── clsPersonData
+│   ├── clsUsersData
+│   ├── clsApplicationData
+│   ├── clsDriverData
+│   ├── clsLicenseData
+│   ├── clsTestData
+│   └── clsDataAccessSettings
+│
+├── Database
+│
+├── Images
+│
+└── README.md
+```
 ---
 
 # ⚙ Installation
 
 ## Requirements
 
-Before running the project, install:
+Before running the application, make sure you have:
 
-* Visual Studio
-* .NET Framework
-* Microsoft SQL Server
-* SQL Server Management Studio (SSMS)
-
----
-
-## Database Setup
-
-1. Open SQL Server Management Studio.
-2. Execute:
-
-```
-Database/DVLD.sql
-```
-
-3. Make sure the database:
-
-```
-DVLD
-```
-
-was created successfully.
-
-4. Open the project in Visual Studio.
-
-5. Update the connection string if required.
-
-6. Build and run the application.
+- Windows
+- Visual Studio 2022 (or newer)
+- .NET Framework 4.7.2 Developer Pack
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
 
 ---
 
-# 📂 Project Structure
+## Setup
 
+1. Clone the repository.
+
+```bash
+git clone https://github.com/Albarafahed/DVLD-Windows-Form-CSharp.git
 ```
-DVLD
-│
-├── Project
-│   ├── Presentation Layer
-│   ├── Business Logic Layer
-│   └── Data Access Layer
-│
-├── Database
-│   └── DVLD.sql
-│
-├── README.md
-└── .gitignore
+
+2. Open the solution.
+
+```text
+DVLD.sln
+```
+
+3. Create the database.
+
+The repository includes a SQL Server database script.
+
+Open:
+
+```text
+Database
+└── DVLD.sql
+```
+
+using **SQL Server Management Studio (SSMS)**, then execute the script to create the **DVLD** database and all required tables.
+
+4. Configure the connection string.
+
+Open:
+
+```text
+DVLD_DataAccess
+└── clsDataAccessSettings.cs
+```
+
+Update the SQL Server name (and credentials if necessary) to match your local SQL Server instance.
+
+5. Build and run the solution.
+
+---
+
+# ▶ Running the Project
+
+After completing the installation:
+
+- Build the solution.
+- Set **DVLD** as the Startup Project.
+- Press **F5** (or click **Start**) to launch the application.
+
+The application starts with:
+
+```text
+Program.cs
+      │
+      ▼
+frmLogin
+      │
+      ▼
+Authentication
+      │
+      ▼
+frmMain
 ```
 
 ---
 
-# 🧠 Engineering Practices
+# 🔄 Application Workflow
 
-This project applies:
+The system manages the complete driving license process.
 
-* Object-Oriented Programming (OOP)
-* SOLID Principles
-* Clean Code Practices
-* Separation of Concerns
-* Database Normalization
-* Reusable Components
-* Layered Architecture
+```text
+Register Person
+        │
+        ▼
+Create License Application
+        │
+        ▼
+Schedule Required Tests
+        │
+        ▼
+Pass All Tests
+        │
+        ▼
+Issue Driving License
+        │
+        ▼
+License Services
+        │
+        ├── Renew License
+        ├── Replace Lost License
+        ├── Replace Damaged License
+        ├── Detain License
+        ├── Release License
+        └── Issue International License
+```
 
 ---
 
-# 🔮 Future Improvements
+# 📝 Notes
+
+- Desktop Windows Forms application.
+- Built using a 3-Tier Architecture.
+- Uses Microsoft SQL Server.
+- Database access is implemented with ADO.NET.
+- Business logic is separated from the Presentation Layer.
+- SQL queries are executed through the Data Access Layer.
+- The repository includes the SQL database creation script.
+
+---
+
+# 🔒 Security Notes
+
+Current implementation:
+
+- User authentication is database-based.
+- Remember Me stores user credentials locally.
+- Database connection information is stored in the Data Access Layer.
+
+Possible improvements:
+
+- Hash user passwords.
+- Encrypt stored credentials.
+- Move the connection string to `App.config`.
+- Use Windows Authentication or a restricted SQL Server account.
+- Add centralized logging and exception handling.
+
+---
+
+# ⚠ Known Limitations
+
+Current limitations include:
+
+- No automated tests.
+- No logging framework.
+- No installer package.
+- Connection string is stored in source code.
+- Repository Pattern is not implemented.
+- No Dependency Injection.
+- No localization support.
+
+---
+
+# 🚀 Future Improvements
 
 Possible future enhancements:
 
-* Migration to ASP.NET Core Web API.
-* Modern web frontend.
-* Automated testing.
-* Logging system.
-* Advanced reporting dashboard.
-* Cloud database deployment.
+### Architecture
+
+- Implement Repository Pattern.
+- Add Dependency Injection.
+- Improve code separation.
+- Introduce Unit of Work Pattern.
+
+### Database
+
+- Database migration scripts.
+- Seed data.
+- Backup and restore tools.
+
+### Security
+
+- Password hashing.
+- Secure Remember Me implementation.
+- Role-based authorization.
+- Audit logging.
+
+### Features
+
+- Dashboard statistics.
+- Export reports to PDF.
+- Export reports to Excel.
+- Email notifications.
+- QR Code support.
+- Barcode support.
+
+### Development
+
+- Unit Testing.
+- Integration Testing.
+- Logging with Serilog or NLog.
+- CI/CD pipeline.
 
 ---
 
-# 📧 Contact
+# 📷 Images
+
+Application screenshots are stored in:
+
+```text
+Images
+│
+├── Applications
+├── Driver
+├── Pepole
+├── User
+├── frmlogin.png
+└── frmMain.png
+```
+
+---
+
+# 📚 Learning Objectives
+
+This project demonstrates practical experience with:
+
+- C#
+- Windows Forms
+- Object-Oriented Programming (OOP)
+- SOLID Principles
+- SQL Server
+- ADO.NET
+- 3-Tier Architecture
+- CRUD Operations
+- Authentication
+- Desktop Application Development
+
+---
+
+# 👤 Author
 
 **Albara Fahed Alharissy**
 
-Software Engineer | C# .NET Developer
+.NET Developer
 
-LinkedIn:
-https://www.linkedin.com/in/albara-csharp-developer/
+- GitHub: https://github.com/Albarafahed
+- LinkedIn: https://www.linkedin.com/in/albara-csharp-developer/
 
-GitHub:
-https://github.com/Albarafahed
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a **Star** on GitHub.
+
+---
+
+# 📄 License
+
+This repository does not currently include a LICENSE file.
